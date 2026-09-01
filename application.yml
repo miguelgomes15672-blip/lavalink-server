@@ -2,7 +2,7 @@ server:
   port: 2333
   address: 0.0.0.0
   password: "betedomingos13"
-  
+
 lavalink:
   plugins:
     - dependency: "dev.lavalink.youtube:youtube-plugin:1.11.0"
@@ -17,6 +17,15 @@ sources:
   twitch: true
   http: true
   local: false
+
+# Configuração do plugin do Spotify (LavaSrc)
+plugins:
+  sources:
+    spotify: true
+    apple-music: false
+    deezer: false
+    yandex-music: false
+    flowery-tts: false
 
 metrics:
   prometheus:
