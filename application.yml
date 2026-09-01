@@ -29,9 +29,9 @@ plugins:
     flowery-tts: false
 
 metrics:
-  prometheus:
-    enabled: false
-    endpoint: /metrics
+prometheus:
+  enabled: false
+  endpoint: /metrics
 
 sentry:
   dsn: ""
